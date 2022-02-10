@@ -10,14 +10,13 @@
         -sessiones
         -attendees""",
     'author': "Odoo",
-    'website': 'http..',
+    'website': 'https://www.odoo.com',
     'category': 'Training',
     'version': '0.1',
     'depends': ['base'],
     'data': [
         
     ],
-    'license':'LGPL-3',
     'demo': [
        
     ]
