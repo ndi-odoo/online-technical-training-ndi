@@ -14,6 +14,7 @@
     'category': 'Training',
     'version': '0.1',
     'depends': ['base'],
+    'license':'LGPL-3',
     'data': [
         
     ],
