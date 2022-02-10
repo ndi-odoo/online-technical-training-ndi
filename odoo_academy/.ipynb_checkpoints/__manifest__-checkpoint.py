@@ -15,11 +15,12 @@
     'version': '0.1',
     'depends': ['base'],
     'license':'LGPL-3',
-    'data': [
-        
+    'data': [  
+        'security/academy_security.xml',
+        'security/ir.model.access.csv'
     ],
-    'demo': [
-       
+    'demo': [   
+        'demo/academy_demo.xml'
     ]
     
 }
