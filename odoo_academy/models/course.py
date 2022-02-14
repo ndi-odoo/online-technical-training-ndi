@@ -20,6 +20,10 @@ class Course(models.Model):
     
     total_price = fields.Float(string='Total price', readonly=True)
     
+    session_ids =  fields.One2Many(comodel_name='academy.session',
+                                   inverse_name='course_id',
+                                   string='Sessions")
+    
     @api.onchange('base_price','additional_fee')
     def _onchange_total_price(self):
         
@@ -32,4 +36,3 @@ class Course(models.Model):
         for record in self:
             if record.additional_fee < 10.00:
                 raise ValidationError('Additional fees cannot be less than 10.00: %s' % record.additional_fee)
-    
