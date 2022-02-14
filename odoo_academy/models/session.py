@@ -18,5 +18,5 @@ class Session(models.Model):
      instructor_id=fields.Many2one(comodel_name='res.partner',
                                    string='Instructor')
                                    
-     student_ids = fields.Many2many(comodel_name='res.partner',
+     student_ids =fields.Many2many(comodel_name='res.partner',
                                     string='Students')    
