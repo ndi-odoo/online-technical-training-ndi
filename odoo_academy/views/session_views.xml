@@ -34,18 +34,6 @@
                   <field name="instructor_id"/>
               </tree>
            </field>  
-       </record>     
-       
-       <record model="ir.ui.view" id="course_view_search">
-           <field name="name">academy.course.search</field>
-           <field name="model">academy.course</field>
-           <field name="arch" type="xml">
-              <search>
-                  <field name="name"/>
-                  <field name="description"/>
-                  
-              </search>
-           </field>  
-       </record>           
+       </record>            
    </data>
 </odoo>    

@@ -36,7 +36,8 @@
                 name="Courses" 
                 parent="menu_academy_sub" 
                 sequence="3"
-                action="course_list_action" />   
+                action="course_list_action" />  
+       
        <menuitem id="menu_academy_sessions" 
                 name="Sessions" 
                 parent="menu_academy_sub" 
