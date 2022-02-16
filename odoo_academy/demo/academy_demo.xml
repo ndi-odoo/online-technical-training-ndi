@@ -5,11 +5,13 @@
            <field name="name">ERP 101</field>
            <field name="description">description ERP 101</field>
            <field name="level">beginner</field>
+           <field name="active">True</field>
        </record>
        <record model="academy.course" id="erp_102">
            <field name="name">ERP 102</field>
            <field name="description"></field>
            <field name="level">beginner</field>
+            <field name="active">True</field>
        </record>
   </data>
 </odoo>  
