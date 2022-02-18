@@ -13,7 +13,7 @@
        </record>
        
        <record model="ir.actions.act_window" id="session_list_action">
-          <field name="name">Sessions</field>
+          <field name="name">Sessions 2.0</field>
            <field name="res_model">academy.session</field>
            <field name="view_mode">tree,form,calendar</field>
             <field name="help" type="html">
