@@ -33,6 +33,3 @@ class SaleWizard(models.TransientModel):
                     'session_id': self.session_id.id,
                     'order_line': [(0, 0, {'product_id': session_product_id.id, 'price_unit': self.session_id.total_price})]
                 })
-© 2022 GitHub, Inc.
-Terms
-Privacy
